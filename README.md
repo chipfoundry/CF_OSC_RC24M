@@ -1,11 +1,17 @@
 # CF_OSC_RC24M
 
-> **Draft for review — text extraction only.** Figure rebuild did not pass, so this file is not a complete datasheet. Cypress/process leftovers may still be present. Do not treat this as a released spec.
+> **Draft for review.** Not a released spec. Figures are the original datasheet crops that passed branding review; any figure without a cached clearance was left out. Vendor wording may still be present in the text.
 
 - Vendor block: `s8intosc`
 - Pages merged: 59/59
+- Figures published: 6/10
 - Skipped or invalid caches:
 - (none)
+- Figures not published:
+- `src-af8512997d1dad41-p0001-figure-0000` — page logo, header, footer, or marketing tagline
+- `src-af8512997d1dad41-p0019-figure-0001` — vendor cell name or part number legible in crop
+- `src-af8512997d1dad41-p0032-figure-0001` — vendor cell name or part number legible in crop; (CDFcellName) placeholder text is not a valid cell name and should be replaced with actual vendor part number
+- `src-af8512997d1dad41-p0037-figure-0001` — vision extraction failed: Ollama request failed: timed out
 
 ---
 
@@ -700,7 +706,24 @@ Use the files under `hdl/gl/` as blackbox declarations, `layout/lef/` for physic
 
 ## Block Diagram
 
-No source-backed figure of this type was present.
+### Figure
+
+![Figure](doc/generated/CF_OSC_RC24M_block_01.png)
+
+CF_OSC_RC24M [src-af8512997d1dad41:p1]
+
+### CF_OSC_RC24M
+
+![CF_OSC_RC24M](doc/generated/CF_OSC_RC24M_block_02.png)
+
+Schematic of a current-mode oscillator circuit [src-af8512997d1dad41:p15]
+
+### CF_OSC_RC24M
+
+![CF_OSC_RC24M](doc/generated/CF_OSC_RC24M_block_03.png)
+
+This figure shows the layout of the CF_OSC_RC24M circuit, including the DAC, BIAS, OSC, and Doubler blocks. The layout is color-coded with various components and connections indicated by green outlines. [src-af8512997d1dad41:p38]
+
 
 ## Pin Description
 
@@ -1958,7 +1981,12 @@ Higher gain setting gives lower step size. Validated only for 24 MHz USB mode [s
 
 ## Timing Diagram
 
-No source-backed figure of this type was present.
+### CF_OSC_RC24M
+
+![CF_OSC_RC24M](doc/generated/CF_OSC_RC24M_chart_01.png)
+
+Source datasheet figure showing a chip layout with labeled blocks: SPC, Fast bias, and caps [src-af8512997d1dad41:p38]
+
 
 ## Limitations and Open Issues
 
@@ -2203,10 +2231,14 @@ Source markers identify immutable, hash-addressed operator evidence and page num
 
 - `src-104c5ab510f5534a` page 8
 - `src-104c5ab510f5534a` page n/a
+- `src-af8512997d1dad41` page 1
 - `src-af8512997d1dad41` page 11
+- `src-af8512997d1dad41` page 15
 - `src-af8512997d1dad41` page 17
 - `src-af8512997d1dad41` page 21
+- `src-af8512997d1dad41` page 25
 - `src-af8512997d1dad41` page 26
+- `src-af8512997d1dad41` page 38
 - `src-af8512997d1dad41` page n/a
 
 ## Tapeout History
