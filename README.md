@@ -11,7 +11,7 @@
 - `src-af8512997d1dad41-p0001-figure-0000` — page logo, header, footer, or marketing tagline
 - `src-af8512997d1dad41-p0019-figure-0001` — vendor cell name or part number legible in crop
 - `src-af8512997d1dad41-p0032-figure-0001` — vendor cell name or part number legible in crop; (CDFcellName) placeholder text is not a valid cell name and should be replaced with actual vendor part number
-- `src-af8512997d1dad41-p0037-figure-0001` — vision extraction failed: Ollama request failed: timed out
+- `src-af8512997d1dad41-p0037-figure-0001` — no cached branding clearance
 
 ---
 
@@ -717,6 +717,12 @@ CF_OSC_RC24M [src-af8512997d1dad41:p1]
 ![CF_OSC_RC24M](doc/generated/CF_OSC_RC24M_block_02.png)
 
 Schematic of a current-mode oscillator circuit [src-af8512997d1dad41:p15]
+
+### Figure not published (not cleared)
+
+![Figure not published (not cleared)](doc/generated/CF_OSC_RC24M_withheld_03.svg)
+
+**Not published.** vendor cell name or part number legible in crop; (CDFcellName) placeholder text is not a valid cell name and should be replaced with actual vendor part number [src-af8512997d1dad41:p32]
 
 ### CF_OSC_RC24M
 
@@ -1981,11 +1987,47 @@ Higher gain setting gives lower step size. Validated only for 24 MHz USB mode [s
 
 ## Timing Diagram
 
+### Figure not published (not cleared)
+
+![Figure not published (not cleared)](doc/generated/CF_OSC_RC24M_withheld_02.svg)
+
+**Not published.** vendor cell name or part number legible in crop [src-af8512997d1dad41:p19]
+
 ### CF_OSC_RC24M
 
 ![CF_OSC_RC24M](doc/generated/CF_OSC_RC24M_chart_01.png)
 
 Source datasheet figure showing a chip layout with labeled blocks: SPC, Fast bias, and caps [src-af8512997d1dad41:p38]
+
+
+## Tables
+
+### Figure not published (vendor branding)
+
+![Figure not published (vendor branding)](doc/generated/CF_OSC_RC24M_withheld_01.svg)
+
+**Not published.** page logo, header, footer, or marketing tagline [src-af8512997d1dad41:p1]
+
+### Error table with 2 MSBs of trim as NVL bits(temperature-40 to 100)
+
+![Error table with 2 MSBs of trim as NVL bits(temperature-40 to 100)](doc/generated/CF_OSC_RC24M_table_01.png)
+
+ [src-af8512997d1dad41:p25]
+
+### Error table with all trim bits valid(temperature-40 to100)(sleep wake up case)
+
+![Error table with all trim bits valid(temperature-40 to100)(sleep wake up case)](doc/generated/CF_OSC_RC24M_table_02.png)
+
+ [src-af8512997d1dad41:p25]
+
+
+## Withheld figures
+
+### Figure not published (not cleared)
+
+![Figure not published (not cleared)](doc/generated/CF_OSC_RC24M_withheld_04.svg)
+
+**Not published.** no cached branding clearance [src-af8512997d1dad41:p37]
 
 
 ## Limitations and Open Issues
@@ -2235,9 +2277,12 @@ Source markers identify immutable, hash-addressed operator evidence and page num
 - `src-af8512997d1dad41` page 11
 - `src-af8512997d1dad41` page 15
 - `src-af8512997d1dad41` page 17
+- `src-af8512997d1dad41` page 19
 - `src-af8512997d1dad41` page 21
 - `src-af8512997d1dad41` page 25
 - `src-af8512997d1dad41` page 26
+- `src-af8512997d1dad41` page 32
+- `src-af8512997d1dad41` page 37
 - `src-af8512997d1dad41` page 38
 - `src-af8512997d1dad41` page n/a
 
