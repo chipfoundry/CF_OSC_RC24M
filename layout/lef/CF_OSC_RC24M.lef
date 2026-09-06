@@ -1,0 +1,386 @@
+VERSION 5.8 ;
+BUSBITCHARS "[]" ;
+DIVIDERCHAR "/" ;
+
+MACRO CF_OSC_RC24M
+  CLASS BLOCK ;
+  ORIGIN 0 0 ;
+  FOREIGN CF_OSC_RC24M 0 0 ;
+  SIZE 143 BY 390.42 ;
+  PIN reset_nonsrpg
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.89 276.64 143 276.78 ;
+    END
+  END reset_nonsrpg
+  PIN pb
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 17.29 375.31 17.63 390.42 ;
+    END
+  END pb
+  PIN fsoffset[2]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.715 187.255 143 187.395 ;
+    END
+  END fsoffset[2]
+  PIN fs[0]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.715 171.34 143 171.48 ;
+    END
+  END fs[0]
+  PIN fs[1]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.685 172.08 143 172.22 ;
+    END
+  END fs[1]
+  PIN fs[2]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.695 173.23 143 173.37 ;
+    END
+  END fs[2]
+  PIN offset[1]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.715 174.3 143 174.44 ;
+    END
+  END offset[1]
+  PIN offset[2]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.715 175.04 143 175.18 ;
+    END
+  END offset[2]
+  PIN offset[3]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.695 176.15 143 176.29 ;
+    END
+  END offset[3]
+  PIN offset[4]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.69 176.89 143 177.03 ;
+    END
+  END offset[4]
+  PIN offset[5]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.74 178 143 178.14 ;
+    END
+  END offset[5]
+  PIN offset[6]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.715 179.11 143 179.25 ;
+    END
+  END offset[6]
+  PIN offset[7]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.685 179.85 143 179.99 ;
+    END
+  END offset[7]
+  PIN usb_off
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.69 180.96 143 181.1 ;
+    END
+  END usb_off
+  PIN fsoffset[0]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.74 181.7 143 181.84 ;
+    END
+  END fsoffset[0]
+  PIN fsoffset[1]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.73 182.81 143 182.95 ;
+    END
+  END fsoffset[1]
+  PIN gain[5]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.71 148.02 143 148.16 ;
+    END
+  END gain[5]
+  PIN gain[4]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.705 148.51 143 148.65 ;
+    END
+  END gain[4]
+  PIN gain[3]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.71 149 143 149.14 ;
+    END
+  END gain[3]
+  PIN gain[2]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.7 149.495 143 149.635 ;
+    END
+  END gain[2]
+  PIN gain[1]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.725 149.98 143 150.12 ;
+    END
+  END gain[1]
+  PIN gain[0]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.695 150.465 143 150.605 ;
+    END
+  END gain[0]
+  PIN offset[0]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.7 150.965 143 151.105 ;
+    END
+  END offset[0]
+  PIN iout
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 45.62 193.045 45.76 193.765 ;
+    END
+  END iout
+  PIN reset
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.68 271.825 143 271.975 ;
+    END
+  END reset
+  PIN clk_ext_en
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.69 272.625 143 272.775 ;
+    END
+  END clk_ext_en
+  PIN clkout
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.67 273.025 143 273.175 ;
+    END
+  END clkout
+  PIN clk_ext
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.7 272.225 143 272.375 ;
+    END
+  END clk_ext
+  PIN clk_2x_en
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.685 277.66 143 277.81 ;
+    END
+  END clk_2x_en
+  PIN clk2xout
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.68 275.6 143 275.75 ;
+    END
+  END clk2xout
+  PIN iclkout
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.675 275.24 143 275.39 ;
+    END
+  END iclkout
+  PIN vref1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.665 274.365 143 274.515 ;
+    END
+  END vref1
+  PIN usb_off_dly_out
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.66 273.445 143 273.595 ;
+    END
+  END usb_off_dly_out
+  PIN usb_off_dly_in
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.735 192.965 143 193.115 ;
+    END
+  END usb_off_dly_in
+  PIN pd
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 127.72 187.99 143 188.13 ;
+    END
+  END pd
+  PIN vpwr
+    DIRECTION INPUT ;
+    USE POWER ;
+    PORT
+      LAYER met2 ;
+        RECT 125.985 374.4 127.985 375.42 ;
+        RECT 126.745 374.4 127.225 383.82 ;
+      LAYER met3 ;
+        RECT 1.23 380.72 141.77 383.82 ;
+      LAYER met4 ;
+        RECT 5 0 8.1 390.42 ;
+        RECT 35 0 38.1 390.42 ;
+        RECT 65 0 68.1 390.42 ;
+        RECT 95 0 98.1 390.42 ;
+        RECT 125 0 128.1 390.42 ;
+    END
+  END vpwr
+  PIN vgnd
+    DIRECTION INPUT ;
+    USE GROUND ;
+    PORT
+      LAYER met2 ;
+        RECT 124.045 374.425 125.685 375.42 ;
+        RECT 124.625 374.425 125.105 379.02 ;
+      LAYER met3 ;
+        RECT 1.23 375.92 141.77 379.02 ;
+      LAYER met4 ;
+        RECT 20 0 23.1 390.42 ;
+        RECT 50 0 53.1 390.42 ;
+        RECT 80 0 83.1 390.42 ;
+        RECT 110 0 113.1 390.42 ;
+    END
+  END vgnd
+  PIN iref
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 18.755 375.28 19.075 390.42 ;
+    END
+  END iref
+  OBS
+    LAYER li1 ;
+      RECT 0 0 143 390.42 ;
+    LAYER met1 ;
+      RECT 0 0 15 390.42 ;
+      RECT 128 0 143 148.02 ;
+      RECT 128 148.16 143 148.51 ;
+      RECT 128 148.65 143 149 ;
+      RECT 128 149.14 143 149.495 ;
+      RECT 128 149.635 143 149.98 ;
+      RECT 128 150.12 143 150.465 ;
+      RECT 128 150.605 143 150.965 ;
+      RECT 128 151.105 143 171.34 ;
+      RECT 128 171.48 143 172.08 ;
+      RECT 128 172.22 143 173.23 ;
+      RECT 128 173.37 143 174.3 ;
+      RECT 128 174.44 143 175.04 ;
+      RECT 128 175.18 143 176.15 ;
+      RECT 128 176.29 143 176.89 ;
+      RECT 128 177.03 143 178 ;
+      RECT 128 178.14 143 179.11 ;
+      RECT 128 179.25 143 179.85 ;
+      RECT 128 179.99 143 180.96 ;
+      RECT 128 181.1 143 181.7 ;
+      RECT 128 181.84 143 182.81 ;
+      RECT 128 182.95 143 187.255 ;
+      RECT 128 187.395 143 187.99 ;
+      RECT 128 188.13 143 192.965 ;
+      RECT 128 193.115 143 271.825 ;
+      RECT 128 271.975 143 272.225 ;
+      RECT 128 272.375 143 272.625 ;
+      RECT 128 272.775 143 273.025 ;
+      RECT 128 273.175 143 273.445 ;
+      RECT 128 273.595 143 274.365 ;
+      RECT 128 274.515 143 275.24 ;
+      RECT 128 275.39 143 275.6 ;
+      RECT 128 275.75 143 276.64 ;
+      RECT 128 276.78 143 277.66 ;
+      RECT 128 277.81 143 390.42 ;
+      RECT 15 0 128 15 ;
+      RECT 15 375.42 128 390.42 ;
+    LAYER met2 ;
+      RECT 0 0 15 390.42 ;
+      RECT 128 0 143 390.42 ;
+      RECT 15 0 128 15 ;
+      RECT 15 375.42 17.29 390.42 ;
+      RECT 17.63 375.42 18.755 390.42 ;
+      RECT 19.075 375.42 124.625 390.42 ;
+      RECT 124.625 379.02 125.105 390.42 ;
+      RECT 125.105 375.42 126.745 390.42 ;
+      RECT 126.745 383.82 127.225 390.42 ;
+      RECT 127.225 375.42 128 390.42 ;
+  END
+END CF_OSC_RC24M
+
+END LIBRARY

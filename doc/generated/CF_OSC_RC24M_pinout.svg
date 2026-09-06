@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="544" height="386" viewBox="0 0 544 386">
+<rect width="100%" height="100%" fill="white"/>
+<text x="272.0" y="22" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#111">CF_OSC_RC24M</text>
+<rect x="152" y="48" width="240" height="262" fill="#f7f7f7" stroke="#222" stroke-width="1.5"/>
+<text x="272.0" y="184.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#333">CF_OSC_RC24M</text>
+<line x1="134" y1="64.0" x2="152" y2="64.0" stroke="#222" stroke-width="1.5"/>
+<text x="130" y="68.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">reset_nonsrpg</text>
+<line x1="134" y1="87.0" x2="152" y2="87.0" stroke="#222" stroke-width="1.5"/>
+<text x="130" y="91.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">fsoffset</text>
+<line x1="134" y1="110.0" x2="152" y2="110.0" stroke="#222" stroke-width="1.5"/>
+<text x="130" y="114.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">fs</text>
+<line x1="134" y1="133.0" x2="152" y2="133.0" stroke="#222" stroke-width="1.5"/>
+<text x="130" y="137.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">offset</text>
+<line x1="134" y1="156.0" x2="152" y2="156.0" stroke="#222" stroke-width="1.5"/>
+<text x="130" y="160.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">usb_off</text>
+<line x1="134" y1="179.0" x2="152" y2="179.0" stroke="#222" stroke-width="1.5"/>
+<text x="130" y="183.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">gain</text>
+<line x1="134" y1="202.0" x2="152" y2="202.0" stroke="#222" stroke-width="1.5"/>
+<text x="130" y="206.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">reset</text>
+<line x1="134" y1="225.0" x2="152" y2="225.0" stroke="#222" stroke-width="1.5"/>
+<text x="130" y="229.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">clk_ext_en</text>
+<line x1="134" y1="248.0" x2="152" y2="248.0" stroke="#222" stroke-width="1.5"/>
+<text x="130" y="252.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">clk_2x_en</text>
+<line x1="134" y1="271.0" x2="152" y2="271.0" stroke="#222" stroke-width="1.5"/>
+<text x="130" y="275.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">usb_off_dly_in</text>
+<line x1="134" y1="294.0" x2="152" y2="294.0" stroke="#222" stroke-width="1.5"/>
+<text x="130" y="298.0" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">pd</text>
+<line x1="392" y1="64.0" x2="410" y2="64.0" stroke="#222" stroke-width="1.5"/>
+<text x="414" y="68.0" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">pb</text>
+<line x1="392" y1="92.75" x2="410" y2="92.75" stroke="#222" stroke-width="1.5"/>
+<text x="414" y="96.75" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">iout</text>
+<line x1="392" y1="121.5" x2="410" y2="121.5" stroke="#222" stroke-width="1.5"/>
+<text x="414" y="125.5" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">clkout</text>
+<line x1="392" y1="150.25" x2="410" y2="150.25" stroke="#222" stroke-width="1.5"/>
+<text x="414" y="154.25" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">clk_ext</text>
+<line x1="392" y1="179.0" x2="410" y2="179.0" stroke="#222" stroke-width="1.5"/>
+<text x="414" y="183.0" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">clk2xout</text>
+<line x1="392" y1="207.75" x2="410" y2="207.75" stroke="#222" stroke-width="1.5"/>
+<text x="414" y="211.75" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">iclkout</text>
+<line x1="392" y1="236.5" x2="410" y2="236.5" stroke="#222" stroke-width="1.5"/>
+<text x="414" y="240.5" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">vref1</text>
+<line x1="392" y1="265.25" x2="410" y2="265.25" stroke="#222" stroke-width="1.5"/>
+<text x="414" y="269.25" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">usb_off_dly_out</text>
+<line x1="392" y1="294.0" x2="410" y2="294.0" stroke="#222" stroke-width="1.5"/>
+<text x="414" y="298.0" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">iref</text>
+<line x1="232.0" y1="310" x2="232.0" y2="328" stroke="#222" stroke-width="1.5"/>
+<text x="232.0" y="342" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">vpwr</text>
+<line x1="312.0" y1="310" x2="312.0" y2="328" stroke="#222" stroke-width="1.5"/>
+<text x="312.0" y="342" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">vgnd</text>
+</svg>
