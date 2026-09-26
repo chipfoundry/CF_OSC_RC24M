@@ -2,7 +2,7 @@
 
 > Crystal-less 24 MHz-class RC oscillator
 
-Draft for designer review. The public GDS is an abstract; ChipFoundry
+The public GDS is an abstract; ChipFoundry
 substitutes protected full geometry at tapeout.
 
 This package ships an SRAM-style PG wrap `CF_OSC_RC24M` around analog leaf
@@ -30,14 +30,7 @@ Macro size is 143.00 × 390.42 µm (15 µm halo around analog leaf
 
 ```bash
 pip install cf-ipm
-ipm install CF_OSC_RC24M --version 0.2.0 --include-drafts
-```
-
-Until the marketplace listing is published, install from a local catalog
-override the same way `cf-osc-rc24m-test-project` does:
-
-```bash
-ipm install CF_OSC_RC24M --version 0.2.0 --include-drafts --local-file ip/catalog.json
+ipm install CF_OSC_RC24M --version 0.2.1
 ```
 
 Use `hdl/gl/CF_OSC_RC24M.v` as the customer blackbox, `layout/lef/CF_OSC_RC24M.lef`
@@ -45,6 +38,8 @@ for P&R, and `layout/gds/CF_OSC_RC24M.gds` / `layout/mag/CF_OSC_RC24M.mag` for t
 public wrap. `CF_OSC_RC24M_core` is the analog leaf (empty Verilog, pin-only
 abstract). ChipFoundry substitutes vault GDS into `CF_OSC_RC24M_core` at tapeout.
 P&R uses the wrap LEF (`vpwr` / `vgnd` only).
+
+Functional sim compiles `verify/beh_model/CF_OSC_RC24M_core.v` **instead of** the empty `hdl/gl/CF_OSC_RC24M_core.v` stub. See `verify/beh_model/README.md`.
 
 ## Features
 
@@ -54,6 +49,7 @@ P&R uses the wrap LEF (`vpwr` / `vgnd` only).
 - Power-down `pd` and sleep-start `reset_nonsrpg`
 - Bias inputs `vref1` (~0.8 V) and `iref` (~9.6 µA)
 - Optional jitter capacitor node `pb`
+- Ideal Verilog behavioral model under `verify/beh_model/` for functional sim
 - Customer cell `CF_OSC_RC24M` 143.00 × 390.42 µm (15 µm halo around analog leaf 113.00 × 360.42 µm)
 - Chip PDN is `vpwr` / `vgnd`. Well taps `vpb` / `vnb` are tied inside the wrap.
 
@@ -107,9 +103,16 @@ In OpenLane / LibreLane, hook chip PDN with
 ## Limitations and Open Issues
 
 - Verilog in `hdl/gl/CF_OSC_RC24M.v` is a structural wrap around an empty
-  `CF_OSC_RC24M_core` blackbox, not a SPICE-accurate model.
+  `CF_OSC_RC24M_core` blackbox. Functional sim uses `verify/beh_model/CF_OSC_RC24M_core.v` (ideal model, not SPICE).
 - Liberty is not in this first wrap drop. P&R uses the wrap LEF.
 - Companion process-variant analog tops stay foundry-only. This package
   ships the wrap around the public analog leaf.
 - Voltage and current references are not generated on-macro. A crystal-less
   SoC should also instantiate `CF_BGR`.
+
+## Release History
+
+| Version | Date | Notes |
+|---|---|---|
+| 0.2.0 | 2026-09-06 | First SRAM-style PG-wrapped package. |
+| 0.2.1 | 2026-09-26 | Core fill-exclude covers so fillgen does not overwrite the analog. LEF pin directions match the Verilog port types. Ideal behavioral model for functional sim. |

@@ -12,7 +12,7 @@ MACRO CF_OSC_RC24M
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.89 276.64 143 276.78 ;
+        RECT 127.38 276.64 143 276.78 ;
     END
   END reset_nonsrpg
   PIN pb
@@ -24,171 +24,171 @@ MACRO CF_OSC_RC24M
     END
   END pb
   PIN fsoffset[2]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.715 187.255 143 187.395 ;
+        RECT 127.24 187.255 143 187.395 ;
     END
   END fsoffset[2]
   PIN fs[0]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.715 171.34 143 171.48 ;
+        RECT 127.24 171.34 143 171.48 ;
     END
   END fs[0]
   PIN fs[1]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.685 172.08 143 172.22 ;
+        RECT 127.21 172.08 143 172.22 ;
     END
   END fs[1]
   PIN fs[2]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.695 173.23 143 173.37 ;
+        RECT 127.22 173.23 143 173.37 ;
     END
   END fs[2]
   PIN offset[1]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.715 174.3 143 174.44 ;
+        RECT 127.24 174.3 143 174.44 ;
     END
   END offset[1]
   PIN offset[2]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.715 175.04 143 175.18 ;
+        RECT 127.24 175.04 143 175.18 ;
     END
   END offset[2]
   PIN offset[3]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.695 176.15 143 176.29 ;
+        RECT 127.22 176.15 143 176.29 ;
     END
   END offset[3]
   PIN offset[4]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.69 176.89 143 177.03 ;
+        RECT 127.215 176.89 143 177.03 ;
     END
   END offset[4]
   PIN offset[5]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.74 178 143 178.14 ;
+        RECT 127.265 178 143 178.14 ;
     END
   END offset[5]
   PIN offset[6]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.715 179.11 143 179.25 ;
+        RECT 127.24 179.11 143 179.25 ;
     END
   END offset[6]
   PIN offset[7]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.685 179.85 143 179.99 ;
+        RECT 127.21 179.85 143 179.99 ;
     END
   END offset[7]
   PIN usb_off
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.69 180.96 143 181.1 ;
+        RECT 127.215 180.96 143 181.1 ;
     END
   END usb_off
   PIN fsoffset[0]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.74 181.7 143 181.84 ;
+        RECT 127.265 181.7 143 181.84 ;
     END
   END fsoffset[0]
   PIN fsoffset[1]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.73 182.81 143 182.95 ;
+        RECT 127.255 182.81 143 182.95 ;
     END
   END fsoffset[1]
   PIN gain[5]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.71 148.02 143 148.16 ;
+        RECT 127.235 148.02 143 148.16 ;
     END
   END gain[5]
   PIN gain[4]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.705 148.51 143 148.65 ;
+        RECT 127.23 148.51 143 148.65 ;
     END
   END gain[4]
   PIN gain[3]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.71 149 143 149.14 ;
+        RECT 127.235 149 143 149.14 ;
     END
   END gain[3]
   PIN gain[2]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.7 149.495 143 149.635 ;
+        RECT 127.225 149.495 143 149.635 ;
     END
   END gain[2]
   PIN gain[1]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.725 149.98 143 150.12 ;
+        RECT 127.25 149.98 143 150.12 ;
     END
   END gain[1]
   PIN gain[0]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.695 150.465 143 150.605 ;
+        RECT 127.22 150.465 143 150.605 ;
     END
   END gain[0]
   PIN offset[0]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.7 150.965 143 151.105 ;
+        RECT 127.225 150.965 143 151.105 ;
     END
   END offset[0]
   PIN iout
@@ -196,31 +196,31 @@ MACRO CF_OSC_RC24M
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 45.62 193.045 45.76 193.765 ;
+        RECT 45.495 193.045 45.885 193.765 ;
     END
   END iout
   PIN reset
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.68 271.825 143 271.975 ;
+        RECT 127.275 271.825 143 271.975 ;
     END
   END reset
   PIN clk_ext_en
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.69 272.625 143 272.775 ;
+        RECT 127.285 272.625 143 272.775 ;
     END
   END clk_ext_en
   PIN clkout
-    DIRECTION INOUT ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.67 273.025 143 273.175 ;
+        RECT 127.265 273.025 143 273.175 ;
     END
   END clkout
   PIN clk_ext
@@ -228,31 +228,31 @@ MACRO CF_OSC_RC24M
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.7 272.225 143 272.375 ;
+        RECT 127.295 272.225 143 272.375 ;
     END
   END clk_ext
   PIN clk_2x_en
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.685 277.66 143 277.81 ;
+        RECT 127.28 277.66 143 277.81 ;
     END
   END clk_2x_en
   PIN clk2xout
-    DIRECTION INOUT ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.68 275.6 143 275.75 ;
+        RECT 127.275 275.6 143 275.75 ;
     END
   END clk2xout
   PIN iclkout
-    DIRECTION INOUT ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.675 275.24 143 275.39 ;
+        RECT 127.27 275.24 143 275.39 ;
     END
   END iclkout
   PIN vref1
@@ -260,31 +260,31 @@ MACRO CF_OSC_RC24M
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.665 274.365 143 274.515 ;
+        RECT 127.26 274.365 143 274.515 ;
     END
   END vref1
   PIN usb_off_dly_out
-    DIRECTION INOUT ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.66 273.445 143 273.595 ;
+        RECT 127.255 273.445 143 273.595 ;
     END
   END usb_off_dly_out
   PIN usb_off_dly_in
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.735 192.965 143 193.115 ;
+        RECT 127.32 192.965 143 193.115 ;
     END
   END usb_off_dly_in
   PIN pd
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 127.72 187.99 143 188.13 ;
+        RECT 127.245 187.99 143 188.13 ;
     END
   END pd
   PIN vpwr

@@ -39,7 +39,7 @@ MACRO CF_OSC_RC24M_core
     END
   END pb
   PIN fsoffset[2]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -47,7 +47,7 @@ MACRO CF_OSC_RC24M_core
     END
   END fsoffset[2]
   PIN fs[0]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -55,7 +55,7 @@ MACRO CF_OSC_RC24M_core
     END
   END fs[0]
   PIN fs[1]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -63,7 +63,7 @@ MACRO CF_OSC_RC24M_core
     END
   END fs[1]
   PIN fs[2]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -71,7 +71,7 @@ MACRO CF_OSC_RC24M_core
     END
   END fs[2]
   PIN offset[1]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -79,7 +79,7 @@ MACRO CF_OSC_RC24M_core
     END
   END offset[1]
   PIN offset[2]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -87,7 +87,7 @@ MACRO CF_OSC_RC24M_core
     END
   END offset[2]
   PIN offset[3]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -95,7 +95,7 @@ MACRO CF_OSC_RC24M_core
     END
   END offset[3]
   PIN offset[4]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -103,7 +103,7 @@ MACRO CF_OSC_RC24M_core
     END
   END offset[4]
   PIN offset[5]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -111,7 +111,7 @@ MACRO CF_OSC_RC24M_core
     END
   END offset[5]
   PIN offset[6]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -119,7 +119,7 @@ MACRO CF_OSC_RC24M_core
     END
   END offset[6]
   PIN offset[7]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -127,7 +127,7 @@ MACRO CF_OSC_RC24M_core
     END
   END offset[7]
   PIN usb_off
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -135,7 +135,7 @@ MACRO CF_OSC_RC24M_core
     END
   END usb_off
   PIN fsoffset[0]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -143,7 +143,7 @@ MACRO CF_OSC_RC24M_core
     END
   END fsoffset[0]
   PIN fsoffset[1]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -151,7 +151,7 @@ MACRO CF_OSC_RC24M_core
     END
   END fsoffset[1]
   PIN gain[5]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -159,7 +159,7 @@ MACRO CF_OSC_RC24M_core
     END
   END gain[5]
   PIN gain[4]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -167,7 +167,7 @@ MACRO CF_OSC_RC24M_core
     END
   END gain[4]
   PIN gain[3]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -175,7 +175,7 @@ MACRO CF_OSC_RC24M_core
     END
   END gain[3]
   PIN gain[2]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -183,7 +183,7 @@ MACRO CF_OSC_RC24M_core
     END
   END gain[2]
   PIN gain[1]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -191,7 +191,7 @@ MACRO CF_OSC_RC24M_core
     END
   END gain[1]
   PIN gain[0]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -199,7 +199,7 @@ MACRO CF_OSC_RC24M_core
     END
   END gain[0]
   PIN offset[0]
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -215,7 +215,7 @@ MACRO CF_OSC_RC24M_core
     END
   END iout
   PIN reset
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -223,7 +223,7 @@ MACRO CF_OSC_RC24M_core
     END
   END reset
   PIN clk_ext_en
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -231,7 +231,7 @@ MACRO CF_OSC_RC24M_core
     END
   END clk_ext_en
   PIN clkout
-    DIRECTION INOUT ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -247,7 +247,7 @@ MACRO CF_OSC_RC24M_core
     END
   END clk_ext
   PIN clk_2x_en
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -255,7 +255,7 @@ MACRO CF_OSC_RC24M_core
     END
   END clk_2x_en
   PIN clk2xout
-    DIRECTION INOUT ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -263,7 +263,7 @@ MACRO CF_OSC_RC24M_core
     END
   END clk2xout
   PIN iclkout
-    DIRECTION INOUT ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -279,7 +279,7 @@ MACRO CF_OSC_RC24M_core
     END
   END vref1
   PIN usb_off_dly_out
-    DIRECTION INOUT ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -295,7 +295,7 @@ MACRO CF_OSC_RC24M_core
     END
   END vnb
   PIN usb_off_dly_in
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -303,7 +303,7 @@ MACRO CF_OSC_RC24M_core
     END
   END usb_off_dly_in
   PIN pd
-    DIRECTION INOUT ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
