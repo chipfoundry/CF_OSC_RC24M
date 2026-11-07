@@ -30,7 +30,7 @@ Macro size is 143.00 × 390.42 µm (15 µm halo around analog leaf
 
 ```bash
 pip install cf-ipm
-ipm install CF_OSC_RC24M --version 0.2.1
+ipm install CF_OSC_RC24M --version 0.2.2
 ```
 
 Use `hdl/gl/CF_OSC_RC24M.v` as the customer blackbox, `layout/lef/CF_OSC_RC24M.lef`
@@ -116,3 +116,4 @@ In OpenLane / LibreLane, hook chip PDN with
 |---|---|---|
 | 0.2.0 | 2026-09-06 | First SRAM-style PG-wrapped package. |
 | 0.2.1 | 2026-09-26 | Core fill-exclude covers so fillgen does not overwrite the analog. LEF pin directions match the Verilog port types. Ideal behavioral model for functional sim. |
+| 0.2.2 | 2026-11-07 | Leaf GDS carries wafflefill so pre-merge density passes, and adds the met3 waffleDrop cover. WaffleDrop still keeps chip fill out of the block. |
